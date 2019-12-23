@@ -1,15 +1,12 @@
 <template>
-  <div class="overview">
-    <h1>{{ msg }}</h1>
+  <div class="about">
+    <h1>Hello, my name is Tony Dinh.</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Overview',
-  props: {
-    msg: String
-  }
+  name: 'About'
 }
 </script>
 

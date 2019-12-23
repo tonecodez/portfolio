@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Overview msg="Tony's Portfolio... experimenting with Docker :)"/>
+    <!-- {{"Tony's Portfolio... experimenting with Docker :)"}} -->
+    <Header></Header>
+    <router-view></router-view>  
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Overview from './components/Overview.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
   components: {
-    Overview
+    Header,
+    Footer
   }
 }
 </script>
