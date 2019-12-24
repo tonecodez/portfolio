@@ -1,10 +1,13 @@
 <template>
   <div class="about">
-    <h1>Hello, my name is Tony Dinh.</h1>
+    <h3>Hello, my name is Tony Dinh. Eventually this will be an about me.</h3>
+    <img id="prof" src="../img/profile.jpeg" width="500" height="500" alt="Me!">
   </div>
 </template>
 
 <script>
+
+// import img from ''
 export default {
   name: 'About'
 }
@@ -12,18 +15,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  #prof {
+    padding: 5px 10px;
+  }
 </style>

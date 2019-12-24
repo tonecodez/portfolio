@@ -1,29 +1,48 @@
 <template>
   <div class="projects">
-    <h1>Where my projects will go.</h1>
+    <div class="list" v-for="data in projects"
+      v-bind:key="data.id"> 
+        <a class="link" v-bind:href="data.link">
+          {{data.name}}
+        </a>
+        <a>
+           - {{data.description}} 
+        </a>
+      </div>
   </div>
 </template>
 
 <script>
+
+import projects from '@/data/projects.json'
+
 export default {
-  name: 'Projects'
+  name: 'Projects',
+
+  data () {
+    return {
+      projects: projects
+    }
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
+  .projects {
+    color: "black";
+    text-align: left;
+    margin: 10px 40px;
+  }
+
+  .link {
+    color: green;
+    text-decoration: none;
+  }
+
+  .list {
+    margin: 40px 100px;
+  }
+  
 </style>

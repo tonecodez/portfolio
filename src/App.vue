@@ -1,21 +1,21 @@
 <template>
   <div id="app">
     <!-- {{"Tony's Portfolio... experimenting with Docker :)"}} -->
-    <Header></Header>
+    <Navbar></Navbar>
     <router-view></router-view>  
-    <Footer></Footer>
+    <Contact></Contact>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import Navbar from './components/Navbar.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'app',
   components: {
-    Header,
-    Footer
+    Navbar,
+    Contact
   }
 }
 </script>
@@ -27,6 +27,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
