@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import About from '@/components/About'
+import History from '@/components/History'
 import Projects from '@/components/Projects'
 
 
@@ -17,6 +18,11 @@ export default new Router ({
             path: '/about',
             name: 'about',
             component: About
+        },
+        {
+            path: '/history',
+            name: 'history',
+            component: History
         },
         {
             path: '/projects',

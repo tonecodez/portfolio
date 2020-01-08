@@ -4,7 +4,8 @@
       <li id="title"> Tony Dinh </li>
         <router-link tag="li" active-class="active" class="links" v-for="routes in links" 
           v-bind:key="routes.id"
-          :to="`${routes.page}`">{{routes.text}}
+          :to="`${routes.page}`">
+            {{routes.text}}
         </router-link> 
     </ul>
   </div>
@@ -15,6 +16,7 @@
 
 export default {
   name: 'navbar',
+
   data () {
     return {
       links: [
@@ -25,6 +27,11 @@ export default {
         },
         {
           id: 1,
+          text: 'Work History',
+          page:'/history'
+        },
+        {
+          id: 2,
           text: 'Projects',
           page:'/projects'
         }
@@ -36,14 +43,10 @@ export default {
 
 <style scoped>
 
-#navbar {
-  width: 100%;
-}
-
 ul {
   list-style-type: none;
-  padding: 0;
-  margin: 10px 100px;
+  padding: 10px;
+  margin: 2% 10%;
   overflow: hidden;
 }
 
@@ -53,23 +56,28 @@ li {
 
 #title {
   float: left;
-  font-size: 28px;
-  padding: 14px 16px;
-  
+  font-size: 30px;
+  /* padding: 1%; */
 }
 
 .links {
   color: #000;
-  padding: 14px 16px;
+  padding: 1% 2%;
   text-decoration: none;
   float: right;
-
 }
 
-
-.links:hover,
-.links.router-link-exact-active {
-  background-color:  #f0ead6;
+.links:hover {
+  background-color: #f7f4e9;
+  cursor: pointer;
+  -o-transition:.6s;
+  -ms-transition:.6s;
+  -moz-transition:.6s;
+  -webkit-transition:.6s;
+  transition:.6s;
+}
+ul .links.router-link-exact-active {
+  background-color: #f7f4e9;
   cursor: pointer;
 }
 

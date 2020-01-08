@@ -8,7 +8,7 @@
         <a>
            - {{data.description}} 
         </a>
-      </div>
+    </div>
   </div>
 </template>
 
@@ -33,7 +33,7 @@ export default {
   .projects {
     color: "black";
     text-align: left;
-    margin: 10px 40px;
+    margin: 2% 4%;
   }
 
   .link {
@@ -42,7 +42,7 @@ export default {
   }
 
   .list {
-    margin: 40px 100px;
+    margin: 2% 10%;
   }
   
 </style>

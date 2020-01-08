@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- {{"Tony's Portfolio... experimenting with Docker :)"}} -->
     <Navbar></Navbar>
     <router-view></router-view>  
     <Contact></Contact>
