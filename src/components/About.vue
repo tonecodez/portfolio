@@ -6,13 +6,20 @@
       <div id="bio">
         <h1> Who I Am: </h1>
         <p>
-	  Hello, my name is Tony Dinh. currently a software engineer @ Microsoft :)
+          Hello, my name is Tony Dinh. I graduated from Western Washington University with a 
+          Bachelor of Science in Computer Science in December of 2019. I am currently looking 
+          for opportunities in the software industry. 
         </p>
 
         <p> 
           Please refer to my LinkedIn page at this time, where all of my academic and work
           experience is listed. This webpage will be updated intermittently with any relevant
           information pertaining to me.
+        </p>
+
+        <p> 
+          The main purposes of creating this webpage is to gain experience with using AWS, 
+          as well as to keep my skills fresh as I search for employment opportunities.
         </p>
 
         <p>

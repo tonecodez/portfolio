@@ -1,27 +1,34 @@
 [
   {
-    "id": 2,
-    "company": "Microsoft",
-    "position": "Software Engineer",
-    "location": "Redmond",
-    "time": "7/2022 -",
-    "description": "CO+I Engineering"
-  },
-  {
-    "id": 1,
-    "company": "Amazon",
-    "position": "Software Development Engineer",
-    "location": "Bay Area",
-    "time": "3/2020 - 4/2022",
-    "description": "AWS, Physical Stores"
-  },
-  {
-    "id": 0,
+    "id": 3,
     "company": "Micro Focus",
     "position": "Software Engineer Intern",
     "location": "Bellingham",
     "time": "6/2019 - 9/2019",
     "description": ""
   },
-
+  {
+    "id": 2,
+    "company": "iD Tech Summer Camps",
+    "position": "Programming Instructor",
+    "location": "Seattle",
+    "time": "5/2018 - 9/2018",
+    "description": ""
+  },
+  {
+    "id": 1,
+    "company": "Western Washington University",
+    "position": "Program Assistant II",
+    "location": "Bellingham",
+    "time": "9/2016 - 6/2018",
+    "description": ""
+  },
+  {
+    "id": 0,
+    "company": "White Center Community Development Association",
+    "position": "Research Intern",
+    "location": "White Center",
+    "time": "7/2017 - 12/2017",
+    "description": ""
+  }
 ]
